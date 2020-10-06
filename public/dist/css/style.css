@@ -1,0 +1,176 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    /* overflow: hidden; */
+}
+
+.contenu {
+    width: 100%;
+    height: 100%;
+}
+
+.lg-left {
+    width: 50%;
+    height: 100%;
+    padding: 15px;
+    margin: 0;
+    color: #fff;
+    background-color: #f3695c;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.lg-left>.haut>p {
+    margin: auto;
+    font-size: 6vw;
+    /* font-size: 4em; */
+    text-align: center;
+    border-bottom: 1px solid #fff;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+}
+
+.haut {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.text-left {
+    font-family: 'Open Sans Condensed', sans-serif;
+    /* font-size: 1.3em; */
+    font-size: 2.2vw;
+    padding: 0 1vw;
+    text-align: center !important;
+    margin: 0;
+}
+
+.bas {
+    background-color: #b1b1b1;
+    background-image: url('/assets/img/blacksecurity.png');
+    background-size: 55%;
+    background-position: 50% 1vh;
+    background-repeat: no-repeat;
+    height: 70%;
+    width: 130%;
+    position: relative;
+    bottom: 0;
+    transform: rotate(-7deg) translate(-10%, 15vh);
+}
+
+.design {
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    transform: translateX(-30%) translateY(-50%);
+    width: 25%;
+    height: 15%;
+    z-index: 2;
+}
+
+.design>div {
+    display: inline-block;
+    height: 100%;
+    width: 15%;
+    margin: 2%;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+.design>div:nth-child(2n+1) {
+    transform: translateY(50%);
+}
+
+.lg-right {
+    width: 40%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.card {
+    height: 68%;
+    width: 60%;
+    margin: 0 auto;
+    padding: 5%;
+    /* border-radius: 10px; */
+    margin-top: 2%;
+    box-shadow: 0px 0px 20px rgb(204, 203, 203);
+}
+
+.logo {
+    width: 20%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+.name {
+    font-size: 2vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+form input {
+    margin-bottom: 5%;
+}
+
+.space{
+    margin-bottom: 5%;
+}
+.space-1{
+    margin-bottom: 10% !important;
+}
+.card>p {
+    font-size: 2vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+
+button {
+    font-family: 'Roboto', sans-serif !important;
+    text-transform: lowercase !important;
+    background-color: #f3695c !important;
+    color: white !important;
+    margin: 0 auto !important;
+    border-radius: 20px !important;
+    padding: 10px 35px !important;
+    margin-top: 5% !important;
+}
+
+.copyright {
+    margin: 5% auto !important;
+    margin-bottom: 0;
+    bottom: 0 !important;
+    font-size: x-small !important;
+    font-weight: bolder !important;
+}
+
+.captcha {
+    margin: 0 auto;
+}
+
+.captcha-error {
+    color:#dc3545;
+}
+
+.btn.space{
+    margin-top: 5%;
+}
+
+.remember small,
+.acces small {
+    font-size: .8vw;
+}
+
+.acces{
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
