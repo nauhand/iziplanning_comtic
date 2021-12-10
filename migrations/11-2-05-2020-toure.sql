@@ -1,0 +1,3 @@
+ALTER TABLE `agents` ADD `ville` VARCHAR(100) NOT NULL AFTER `updated_at`;
+ALTER TABLE `agents` ADD `numerocaf` VARCHAR(200) NULL AFTER `ville`, ADD `dateentree` DATE NULL DEFAULT NULL AFTER `numerocaf`, ADD `datelimitecarteproffess` DATE NULL DEFAULT NULL AFTER `dateentree`;
+ALTER TABLE `agents` CHANGE `civilite` `civilite` VARCHAR(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL;
